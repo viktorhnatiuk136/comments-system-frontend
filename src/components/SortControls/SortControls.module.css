@@ -1,0 +1,23 @@
+.controls {
+  display: flex;
+  gap: 12px;
+  align-items: center;
+
+  margin-bottom: 20px;
+}
+
+.select {
+  padding: 8px 12px;
+
+  border: 1px solid #d1d5db;
+  border-radius: 6px;
+
+  background-color: white;
+
+  cursor: pointer;
+}
+
+.select:focus {
+  outline: none;
+  border-color: #2563eb;
+}

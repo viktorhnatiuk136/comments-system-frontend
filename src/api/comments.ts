@@ -1,9 +1,5 @@
-import axios from "axios";
+import { api } from "./api";
 import type { CreateCommentDto } from "../types/createComment";
-
-const api = axios.create({
-  baseURL: "http://localhost:3000",
-});
 
 export const getComments = async (
   page = 1,

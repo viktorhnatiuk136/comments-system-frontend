@@ -1,8 +1,4 @@
-import axios from "axios";
-
-const api = axios.create({
-  baseURL: "http://localhost:3000",
-});
+import { api } from "./api";
 
 export const getCaptcha = async () => {
   const { data } = await api.get("/captcha");

@@ -20,7 +20,6 @@ function App() {
   const loadComments = async () => {
     try {
       const response = await getComments(page, 25, sortBy, order);
-
       setComments(response.data);
       setTotalPages(response.totalPages);
     } catch (error) {

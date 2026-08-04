@@ -1,71 +1,66 @@
-# Comments System Frontend
+Comments System Frontend
 
 Frontend part of the Comments System application.
 
-## Technologies
+Live Demo
 
-- React
-- TypeScript
-- Vite
-- Axios
-- CSS Modules
+Frontend: https://comments-system-frontend-zeta.vercel.app/
 
-## Features
+Backend API: https://comments-system-backend.onrender.com
 
-- Create comments
-- Nested replies
-- CAPTCHA validation
-- Sorting by User Name, Email and Date
-- Pagination
-- HTML formatting toolbar
-- Live preview of comments
+Technologies
+React
+TypeScript
+Vite
+Axios
+CSS Modules
+Features
+Create comments
+Nested replies
+CAPTCHA validation
+Sorting by User Name, Email and Date
+Pagination
+HTML formatting toolbar
+Live preview of comments
 
-## Project Structure
-
+Project Structure
 src/
 ├── api/
 ├── components/
 ├── types/
 ├── App.tsx
+Installation
 
-## Installation
+Clone the repository:
 
-Clone repository:
-
-```bash
 git clone https://github.com/viktorhnatiuk136/comments-system-frontend.git
-```
 
 Install dependencies:
 
-```bash
 npm install
-```
 
-Run development server:
+Create a .env file:
 
-```bash
+VITE_API_URL=https://comments-system-backend.onrender.com
+
+Run the development server:
+
 npm run dev
-```
 
-Frontend will be available at:
+The application will be available at:
 
-```txt
 http://localhost:5173
-```
-
-## Backend
-
-Frontend requires backend API running on:
-
-```txt
-http://localhost:3000
-```
+Backend
 
 Backend repository:
 
 https://github.com/viktorhnatiuk136/comments-system-backend
 
-## Author
+Deployment
+Frontend: Vercel
+Backend: Render
+Database: PostgreSQL
+Containerization: Docker
+Author
 
 Viktor Hnatiuk
